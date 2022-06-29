@@ -1,0 +1,53 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.footer ul {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  width: 600px;
+
+}
+
+.footer div p {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  width: 550px;
+  display: inline-block;
+  font-weight: 100;
+  line-height: 20px;
+  word-break: break-all;
+}
+
+.footer a.email {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer a.email:hover {
+  text-decoration: 3px underline;
+
+
+}
